@@ -1,0 +1,13 @@
+To initialize your local repository, use a command like this:
+
+```bash
+repo init -u https://github.com/aln-project/manifest.git -b pie
+
+```
+
+Then to sync up:
+
+```
+repo sync -c -f --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j8
+```
+
