@@ -715,4 +715,9 @@
   <project groups="p-fs-release,pdk" name="toolchain/binutils" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel"/>
   <project groups="p-fs-release,pdk" name="toolchain/pgo-profiles"/>
 
+  <!-- Include Custom repos -->
+  <include name="snippets/ros.xml" />
+  <include name="snippets/remove.xml" />
+  <include name="snippets/hals.xml" />
+
 </manifest>
