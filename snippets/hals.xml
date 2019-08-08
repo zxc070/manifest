@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Bt -->
+  <remove-project name="platform/hardware/qcom/bt" />
+  <project name="android_hardware_qcom_bt" path="hardware/qcom/bt" remote="ros" />
+
+  <!-- Thermal -->
+  <remove-project name="platform/hardware/qcom/thermal" />
+  <project name="android_hardware_qcom_thermal" path="vendor/qcom/opensource/thermal-hal" remote="ros" />
+
+  <!-- VR -->
+  <remove-project name="platform/hardware/qcom/vr" />
+  <project name="android_hardware_qcom_vr" path="hardware/qcom/vr" remote="ros" />
+
+  <!-- Wlan -->
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <project name="android_hardware_qcom_wlan" path="hardware/qcom/wlan" remote="ros" />
+
+  <!-- Power -->
+  <project name="RevengeOS/android_hardware_qcom_power" path="hardware/qcom/power" remote="github" revision="r9.0-caf" />
+  
+  <!-- Fm -->
+  <project name="LineageOS/android_hardware_qcom_fm" path="hardware/qcom/fm" remote="github" revision="lineage-16.0" />
+
+  <!-- MSM8998 -->
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/msm8998" revision="r9.0-caf-8998" remote="ros" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display/msm8998" revision="r9.0-caf-8998" remote="ros" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media/msm8998" revision="r9.0-caf-8998" remote="ros" />
+  
+  <!-- MSM8996 -->
+  <project name="LineageOS/android_hardware_qcom_audio" path="hardware/qcom/audio/msm8996" remote="github" revision="lineage-16.0-caf-8996" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display/msm8996" remote="ros" revision="r9.0-caf-8996" />
+  <project name="LineageOS/android_hardware_qcom_media" path="hardware/qcom/media/msm8996" remote="github" revision="lineage-16.0-caf-8996" />
+
+  <!-- SDM845 -->
+  <project name="android_hardware_qcom_audio" path="hardware/qcom/audio/sdm845" revision="r9.0-caf-845" remote="ros" />
+  <project name="android_hardware_qcom_display" path="hardware/qcom/display/sdm845" revision="r9.0-caf-845" remote="ros" />
+  <project name="android_hardware_qcom_media" path="hardware/qcom/media/sdm845" revision="r9.0-caf-845" remote="ros" />
+
+</manifest>
