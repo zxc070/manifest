@@ -89,9 +89,6 @@
 
   <remove-project name="platform/vendor/qcom-opensource/fm" />
 
-  <!-- Gapps-->
-  <project name="Lucchetto/android_vendor_gapps" path="vendor/gapps" remote="gitlab" revision="r9.0-caf" />
-
   <!-- Sync with clone-depth=1 to save space -->
   <remove-project name="platform/cts" />
   <project groups="cts,p-fs-release,pdk-cw-fs,pdk-fs" name="platform/cts" path="cts" revision="refs/heads/ks-aosp.lnx.1.0.r1-rel" clone-depth="1" />
