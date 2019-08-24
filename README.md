@@ -1,7 +1,7 @@
 To initialize your local repository, use a command like this:
 
 ```bash
-repo init -u https://github.com/zxc070/manifest.git -b pie
+repo init -u https://github.com/zxc070/manifest.git -b pie-caf
 
 ```
 
